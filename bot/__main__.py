@@ -75,7 +75,7 @@ def restart(update, context):
     os.execl(executable, executable, "-m", "bot")
 
 help_string = '''
-<b><a href='https://github.com/l3v11/SearchX'>SearchX</a></b> - The Ultimate Telegram Bot for Google Drive
+<b><a href='https://teleflix.ml'>TeleFlix Search</a></b> - The Ultimate Telegram Bot For Searching in Drive
 
 Choose a help category:
 '''
@@ -109,9 +109,9 @@ help_string_user = f'''
 '''
 
 help_user = TELEGRAPH[0].create_page(
-    title='SearchX Help',
-    author_name='Levi',
-    author_url='https://t.me/l3v11',
+    title='TeleFlix Search Help',
+    author_name='Meow',
+    author_url='https://t.me/telekit152',
     html_content=help_string_user)['path']
 
 help_string_admin = f'''
@@ -137,9 +137,9 @@ help_string_admin = f'''
 '''
 
 help_admin = TELEGRAPH[0].create_page(
-    title='SearchX Help',
-    author_name='Levi',
-    author_url='https://t.me/l3v11',
+    title='TeleFlix Search Help',
+    author_name='Meow',
+    author_url='https://t.me/telekit152',
     html_content=help_string_admin)['path']
 
 def bot_help(update, context):
